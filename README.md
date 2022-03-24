@@ -30,20 +30,17 @@ For that, you should follow these steps: <br>
 ```shell  
 php script.php inputs/sample.csv
 ```  
-<p>  
 Note: the script first priority is get rates from api, but for any reason that can't access to online rate, it's switched to offline rate.<br>  
-</p>  
-<p>  
 Note: I tried to handle most condition of error or flows in the script,  
 you can check it with different flows like run  
 `php script.php` or `php script.php not/exists/csv/file.csv` or any type of possible scenarios.  
-</p>  
 
 ## How To Test Script
 ```shell  
-cd binphpunit ../tests
+>> cd bin
+
+>> phpunit ../tests
 ```  
-<p>  
-Note: Result of test based on the task example inputs and currency exchange rates.  
-</p>  
+Note: Result of test based on the task example inputs and currency exchange rates.
+
 <br>
